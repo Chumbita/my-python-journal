@@ -1,0 +1,5 @@
+Proyecto 12:
+Programa que simula un carrito de compras. El programa el preguntará al usuario el nombre del producto, el precio por unidad y la cantidad que desea llevar. Los datos se almacenan en un diccionario {product: [price, amount]}. Luego de que el producto con todo sus datos son añadidos al diccionario se le pregunta al usuario si desea agregar más productos al carrito. Una vez que el usuario terminar de agregar productos al carrito se imprime por pantalla la lista completa del carrito de compras y el precio total a pagar.
+
+Project 12:
+Program that simulates a shopping cart. The program will ask the user the name of the product, the price per unit and the amount you want to carry. The data is stored in a dictionary {product: [Price, amount]}. After the product with all its data is added to the dictionary the user is asked if he wants to add more products to the cart. Once the user finishes adding products to the cart, the complete list of the shopping cart and the total price to be paid are printed on the screen.
