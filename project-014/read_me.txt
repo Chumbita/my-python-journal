@@ -1,0 +1,5 @@
+Proyecto 14:
+En este project se hizo uso de condicionales if...else. Se trata de un programa sencillo en donde se modela un login con una variable 'password' que almacena una contraseña cualquiera y se le pide al usuario que ingrese la contraseña. En caso de que coincidan se muestra un cartel de que la contraseña es correcta y en caso contrario se muestra un cartel que la contraseña ingresada es incorrecta. Este programa sencillo tiene como finalidad ver los shorthand del condicional if. 
+
+Proyect 14:
+In this project we made use of conditionals if...else. It is a simple program where a login is modeled with a variable 'password' that stores any password and the user is asked to enter the password. In case they match a sign that the password is correct is displayed and otherwise a sign that the password entered is incorrect is displayed. This simple program is intended to see the shorthand of the conditional if.
