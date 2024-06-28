@@ -1,0 +1,5 @@
+Proyecto 23:
+En este ejercicio se crean dos clases: `Persona` y `Estudiante`. La clase `Estudiante` hereda de `Persona`. En Python, para indicar que una clase hereda de otra, se debe proporcionar el nombre de la superclase al crear la subclase. El constructor de la subclase utiliza el método `super()`, que sirve para llamar al constructor de la superclase e indicar qué propiedades serán heredadas. Los métodos también son heredados, y pueden comportarse de la misma manera que en la superclase o ser modificados en la subclase.
+
+Project 23:
+In this exercise, two classes are created: `Person` and `Student`. The `Student` class inherits from `Person`. In Python, to indicate that a class inherits from another, the name of the superclass must be provided when creating the subclass. The constructor of the subclass uses the `super()` method, which calls the constructor of the superclass and specifies which properties will be inherited. Methods are also inherited and can either behave the same way as in the superclass or be modified in the subclass.
