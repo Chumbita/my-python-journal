@@ -1,0 +1,9 @@
+Proyecto 25
+En este ejercicio se implementó el polimorfismo. El polimorfismo es uno de los pilares de la programación orientada a objetos y se refiere a la capacidad de los objetos de distintas clases para responder al mismo mensaje. En este ejercicio, observamos que el método `make_sound` tiene un comportamiento diferente dependiendo del objeto que lo invoque.
+
+El polimorfismo también está relacionado con la sobrecarga de métodos. En otros lenguajes de programación, por ejemplo, se puede realizar una sobrecarga de métodos en el constructor modificando la cantidad de parámetros que se le pasan. En Python, no existe la sobrecarga de métodos (el último método definido sobrescribiría las implementaciones anteriores). Sin embargo, se puede lograr un comportamiento similar utilizando funciones con valores por defecto para los parámetros, la sintaxis `*params` o `**params`, o bien usando decoradores.
+
+Project 25
+In this exercise, polymorphism was implemented. Polymorphism is one of the pillars of object-oriented programming and refers to the ability of objects from different classes to respond to the same message. In this exercise, we observe that the `make_sound` method behaves differently depending on the object that invokes it.
+
+Polymorphism is also related to method overloading. In other programming languages, for example, method overloading can be achieved in the constructor by varying the number of parameters passed. In Python, method overloading does not exist (the last defined method would overwrite the previous implementations). However, similar behavior can be achieved by using functions with default parameter values, the `*params` or `**params` syntax, or by using decorators.
