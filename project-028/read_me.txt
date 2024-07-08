@@ -1,0 +1,13 @@
+Proyecto 28: 
+En este ejercicio, trabajamos con clases abstractas utilizando la librería `abc` y el decorador `@abstractmethod`. Una clase abstracta es una clase que no se puede instanciar directamente. Esto nos permite declarar propiedades y comportamientos generales para un conjunto de objetos, que luego serán definidos en sus clases específicas.
+
+El uso de clases abstractas propone un método formal para la reutilización del código. Si bien es posible realizar esto solo con herencia, sería inapropiado permitir la instanciación de una clase como "Persona" cuando nunca se utilizará directamente en nuestro problema o ejercicio. Al definir "Persona" como una clase abstracta, garantizamos que no se creen instancias de esta clase, ya que su propósito es ser una plantilla para clases más específicas como "Estudiante" o "Trabajador".
+
+Además, las clases abstractas imponen una estructura en el diseño de las clases derivadas. Los métodos abstractos, definidos con el decorador `@abstractmethod`, obligan a las subclases a implementar estos métodos, asegurando que se cumplan ciertos contratos y comportamientos en todas las clases derivadas. Esto es particularmente útil en equipos de desarrollo grandes, ya que proporciona una guía clara sobre cómo deben comportarse las clases específicas y previene errores comunes relacionados con la falta de implementación de métodos críticos.
+
+Project 28:
+In this exercise, we worked with abstract classes using the `abc` library and the `@abstractmethod` decorator. An abstract class is a class that cannot be instantiated directly. This allows us to declare general properties and behaviors for a set of objects, which will then be defined in their specific classes.
+
+Using abstract classes provides a formal method for code reuse. Although this could be done solely with inheritance, it would be inappropriate to allow instantiation of a class like "Person" when it will never be used directly in our problem or exercise. By defining "Person" as an abstract class, we ensure that no instances of this class are created, as its purpose is to serve as a template for more specific classes such as "Student" or "Worker."
+
+Furthermore, abstract classes impose a structure on the design of derived classes. Abstract methods, defined with the `@abstractmethod` decorator, require subclasses to implement these methods, ensuring that certain contracts and behaviors are upheld across all derived classes. This is particularly useful in large development teams, as it provides clear guidelines on how specific classes should behave and prevents common errors related to the lack of implementation of critical methods.
