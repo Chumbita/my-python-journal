@@ -6,4 +6,4 @@ class Book():
     self.availability = True
 
   def __str__(self):
-    return f"{self.titulo} por {self.autor} (ISBN: {self.isbn})"
+    return f"{self.title} por {self.autor} (ISBN: {self.isbn})"

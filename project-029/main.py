@@ -3,6 +3,12 @@ from Member import Member
 from Library import Library
 
 library = Library()
+staff = Member("Chumbita Luciano", 1)
+book1 = Book("La sombra del viento", "No se", 1111)
+book2 = Book("Hábitos Atómicos", "No sé", 2222)
+library.register_member(staff)
+library.add_book(book1)
+library.add_book(book2)
 
 def register_member():
   print("-----|REGISTRATION|-----\n")
@@ -37,11 +43,43 @@ def find_book():
   
 def borrow_book():
   print("-----|REQUEST BOOK LOAN|----\n")
-  member_id = input("Member id: ")
-  book_isbn = input("Book ISBN: ")
+  member_id = int(input("Member id: "))
+  book_isbn = int(input("Book ISBN: "))
 
   library.borrow_book(member_id, book_isbn)
 
+def return_book():
+  print("-----|RETURN A BOOK|-----")
+  member_id = input("Member id: ")
+  book_isbn = input("Book ISBN: ")
+  f_book = False
+  f_member = False
+
+  for m in library.members:
+    if m.id == member_id:
+      member = m
+      f_member = True
+      for b in m.borrowed_books:
+        if b.isbn == book_isbn:
+          book = b
+          f_book = True
+          break
+      break
+
+  if f_member and f_book:
+    member.return_book(book)
+    print(f"The book {book} was returned successfully")
+  elif f_member == False:
+    print(f'Member id "{member_id}" was not found.')
+  elif f_book == False:
+    print(f'The book with ISBN "{book_isbn}" was not found.')
+
+def borrowed_books():
+  print(f"-----|BORROWED BOOKS|-----\n{'Books':<50} {'Member':<15}")
+  for m in library.members:
+    for b in m.borrowed_books:
+      print(f"{b} {m}")
+  
 
 def main():
   flag = True
@@ -62,3 +100,8 @@ def main():
       flag = False
     else:
       print("Invalid option.")
+    
+    input("Press ENTER to continue...")
+
+if __name__ == "__main__":
+  main()
